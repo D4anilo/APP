@@ -39,8 +39,7 @@ const styles = StyleSheet.create ({
         justifyContent: 'center',
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 50,
-        paddingTop: 5
+        gap: 50
     },
 
     botao: {
