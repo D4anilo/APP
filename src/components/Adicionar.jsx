@@ -37,12 +37,14 @@ export default function Adicionar() {
 const styles = StyleSheet.create ({
     container: {
         justifyContent: 'center',
+        flexDirection: 'row',
         alignItems: 'center',
-        gap: 50
+        gap: 50,
+        paddingTop: 5
     },
 
     botao: {
-        width: 30,
-        height: 30
+        width: 35,
+        height: 35
     }, 
 });

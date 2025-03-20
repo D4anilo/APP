@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
         borderRadius: 6,
         margin: 5, // Margem entre os cards
         width: 35, // Largura fixa para cada card
-        height: 40,
+        height: 45,
         alignItems: "center",
         justifyContent: 'center',
         boxShadow: '1px 1px 1px'

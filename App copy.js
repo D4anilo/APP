@@ -9,7 +9,17 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Header />
-      
+      <Semana />
+      <View style={styles.foto}>
+        <Image
+        style={styles.borda}
+        source={require("./assets/bordas3.png")}
+        />
+      </View>
+      <View style={styles.footer}>
+        <Adicionar />
+      </View>
+
       <StatusBar style="auto" />
     </View>
   );
